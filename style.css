@@ -1,0 +1,282 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#headerS {
+
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600%;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-shadow: 10px 10px 10px black;
+    padding-bottom: 50px;
+
+
+}
+
+header p {
+    text-align: center;
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 30px;
+    text-shadow: 5px 5px 5px black;
+}
+
+header a {
+    box-shadow: 4px 4px 4px 4px black;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 600px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.donation {
+
+    text-align: justify;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 5px;
+}
+
+.amount {
+
+    margin-left: 250px;
+
+}
+
+.amount h2 {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid;
+    border-color: #E0E0E0;
+    display: inline;
+    background-color: #F0F0F0;
+    padding: 30px 15px;
+
+
+}
+
+#amount200 {
+
+    text-align: center;
+    border: 2px solid;
+    border-color: #527a7a;
+    background-color: #669999;
+    padding: 30px 15px;
+
+}
+
+.selectAmount {
+    margin: 100px;
+    margin-left: 400px;
+}
+
+.inputAmount {
+    border: none;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+    height: 20px;
+    width: 400px;
+    margin: 40px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.selectAmount a {
+    box-shadow: 2px 2px 2px 2px gray;
+    text-shadow: 2px 2px 2px 2px black;
+    margin-left: 200px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.donatePlan {
+    display: flex;
+    margin: 100px;
+}
+
+.donatePlanDesign {
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: rgb(188, 206, 207);
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 50px;
+}
+
+.bgcolourAliceBlue {
+    background-color: #cce7ff;
+}
+
+.bgcolourThistle {
+    background-color: #e2d0e2;
+}
+
+.donatePlanDesign img {
+    height: 150px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.donatePlanDesign p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.imagesSize {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+.imagesSize img {
+    margin: 5px;
+}
+
+.updateMargin {
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 150px;
+    text-align: center;
+
+}
+
+.updatePartDesign {
+    height: 100px;
+    width: 800px;
+    background-color: #e2d0e2;
+    border-radius: 2px;
+
+}
+
+.updateDesignInput {
+    height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 35px;
+    margin-right: 0px;
+
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    margin-left: 0px;
+
+}
+
+.aboutUsD {
+    text-align: center;
+    text-align: justify;
+    background-color: #cce7ff;
+    margin: 2px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    display: flex;
+    margin-bottom: 50px;
+
+
+}
+
+.aboutUsD h1 {
+    text-align: center;
+}
+
+.aboutUsD img {
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footerD {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+footer h5 {
+    margin: 30px;
+    margin-top: 60px;
+}
+
+footer img {
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+footer input {
+    margin: 5px;
+}
+
+footer button {
+    margin-left: 25px;
+}
+
+.formDesign {
+    display: block;
+    padding: 30px;
+    margin: 5px;
+}
+
+small {
+
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    color: wheat;
+    padding-bottom: 20px;
+
+}
